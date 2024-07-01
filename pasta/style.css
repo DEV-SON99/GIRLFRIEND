@@ -1,0 +1,154 @@
+html {
+    background-color: #111124;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+span {
+    color: #4a2d9f;
+}
+i {
+    font-size: 80px;
+    color: #4a2d9f;
+}
+
+
+.cabecalho {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+.date:hover {
+    text-decoration: none;
+    color: rgb(59, 9, 124);
+}
+img {
+    height:400px;
+    width: 450px;
+    border-radius: 25px;
+}
+#botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.entra{
+    color: white;
+    text-decoration: none;
+}
+.entra:hover {
+    cursor: pointer;
+    color: white;
+}
+.btnLogin {
+    width: 450px;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #4a2d9f;
+    border: none;
+    color: white;
+}
+.btnLogin:hover {
+    border: 1px solid white;
+}
+.btnCadastro {
+    width: 450px;
+    margin-bottom: 6px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #111124;
+    color: white;
+    border: none;
+    border: 1px solid white;
+}
+#cadastro:hover {
+    color: #4a2d9f;
+}
+.rodape {
+    display: block;
+    padding-bottom: 40px;
+}
+.link {
+    display: inline;
+    color: white;
+    font-size: 13px;
+    margin: 0 15px 0 15px;
+}
+.link:hover {
+    color: #4a2d9f;
+}
+
+@media (max-width:769px) {
+    html {
+        font-size: 1.5rem;
+        display: block;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+    }
+    .cabecalho {
+        display: block;
+        text-align: center;
+        margin-top: 70px;
+    }
+    img {
+        border-radius: 20px;
+    }
+    #botoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .btnLogin {
+        margin: 8px;
+        padding: 12px;
+        width: 305px;
+        border: none;
+        border-radius: 5px;
+        background-color: #7255b2;
+        color: white;
+        font-size: 19px;
+    }
+    .btnLogin:active {
+        background-color: #111124;
+        color: white;
+        border: 1px solid white;
+    }
+    .btnCadastro {
+        margin: 8px;
+        padding: 12px;
+        width: 305px;
+        border: none;
+        border: 1px solid white;
+        border-radius: 5px;
+        background-color: #111124;
+        color: white;
+        font-size: 19px;
+    }
+    .btnCadastro:active{
+        background-color: #7255b2;
+        color: #111124;
+        border: none;
+    }
+    .rodape {
+        display: block;
+        padding-bottom: 30px;
+    }
+    .link {
+        display: inline;
+        color: white;
+        font-size: 13px;
+        margin: 0 15px 0 15px;
+        margin: 20px;
+    }
+    .link:active {
+        color: #4a2d9f;
+    }
+}
